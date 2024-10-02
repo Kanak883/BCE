@@ -1,23 +1,9 @@
 * {
   background-color: #FEF9EF;
-  color: red;
 }
 
-.mkm {
-  background-color: white;
-  height: 60px;
-}
 
-.navbar {
-  height: 30px;
-  display: inline-block;
-  background-color: white;
-  padding-left: 20px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  background-image: url("images/navbar-background.jpg");
-  background-size: cover;
-}
+
 
 a {
   font-size: 20px;
@@ -25,20 +11,22 @@ a {
   border-width: 2px;
   margin-left: 150px;
   text-decoration: none;
-  color: red;
+  color: rgb(225, 54, 54);
+  font-family: Helvetica;
 }
 
 .logo {
   display: inline-block;
   height: 60px;
   width: 150px;
-  background-color: white;
-  background-image: url("images/logo.jpg");
+  background-color: #F8F8FF;
   background-size: contain;
   background-repeat: no-repeat;
+  padding-top: 30px;
+  padding-left: 20px;
 }
 
-button {
+.button {
   border-width: 1px;
   font-size: 18px;
   border-color: black;
@@ -47,35 +35,64 @@ button {
 
 hr {
   text-align: center;
+  font-family: Helvetica;
+}
+.scholheading{
+  font-family: Helvetica;
+  font-weight: bold;
+}
+.scholcol{
+  font-family: Helvetica;
+  text-align: auto;
 }
 
-.nabFEF9EF {
-  background-color: #0f1111;
-  margin-left: 20px;
-  margin-right: 20px;
-  border-radius: 20px;
-  padding-bottom: 10px;
+.noticeN{
+  font-family: Helvetica;
+  font-weight: bold;
+  text-align: center;
 }
 
 .allbox {
-  background-color: white;
   width: 400px;
   padding-left: 20px;
   padding-top: 10px;
   font-size: 40px;
   display: inline-block;
+  font-family: Helvetica;
+  ;
 }
 
-.all {
+.study {
   padding-top: 25px;
-  padding-left: 15px;
-  width: 450px;
-  height: 250px;
-  background-color: grey;
-  border-bottom: 10px solid red;
+  padding-left: 105px;
   display: inline-block;
   transition: all 2s ease-in;
 }
+
+.hero {
+  display: flex; /
+  justify-content: space-between; 
+  align-items: center;
+  padding: 20px; 
+}
+
+.study img {
+  max-width: 100%;
+  height: auto; 
+}
+
+.text {
+  margin-left: 20px;  
+  font-size: 24px; 
+  font-weight: bold; 
+  line-height: 1.5; 
+  text-align: right; 
+}
+
+.text p {
+  font-family:Helvetica; 
+}
+
 
 h4 {
   text-align: center;
@@ -84,16 +101,21 @@ h4 {
   font-style: italic;
   font-weight: bolder;
   border-radius: 10px;
+  font-family: Helvetica;
+  font-weight: bold;
 }
 
 p {
   font-size: 20px;
+  font-family: Helvetica;
 }
 
 .mohit {
   background-color: grey;
   padding-left: 20px;
   padding-top: 10px;
+  font-family: Helvetica;
+  font-weight: bold;
 }
 
 .mohitm {
@@ -106,6 +128,8 @@ p {
   display: inline-block;
   border-radius: 20px;
   margin-bottom: 100px;
+  font-family: Helvetica;
+  font-weight: bold;
 }
 
 .payment {
@@ -115,12 +139,15 @@ p {
   padding-left: 200px;
 }
 
-p1 {
-  padding-left: 200px;
+.fee {
+  font-family: Helvetica;
+  font-weight: bold;
+  text-align: center;
+  color: black;
 }
 
-#phon {
-  block-size: 20px;
+p1 {
+  padding-left: 200px;
 }
 
 h {
