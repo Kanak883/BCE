@@ -1,0 +1,139 @@
+* {
+  background-color: #FEF9EF;
+  color: red;
+}
+
+.mkm {
+  background-color: white;
+  height: 60px;
+}
+
+.navbar {
+  height: 30px;
+  display: inline-block;
+  background-color: white;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-image: url("images/navbar-background.jpg");
+  background-size: cover;
+}
+
+a {
+  font-size: 20px;
+  border-radius: 10px;
+  border-width: 2px;
+  margin-left: 150px;
+  text-decoration: none;
+  color: red;
+}
+
+.logo {
+  display: inline-block;
+  height: 60px;
+  width: 150px;
+  background-color: white;
+  background-image: url("images/logo.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+button {
+  border-width: 1px;
+  font-size: 18px;
+  border-color: black;
+  background-color: lightsteelblue;
+}
+
+hr {
+  text-align: center;
+}
+
+.nabFEF9EF {
+  background-color: #0f1111;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  padding-bottom: 10px;
+}
+
+.allbox {
+  background-color: white;
+  width: 400px;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 40px;
+  display: inline-block;
+}
+
+.all {
+  padding-top: 25px;
+  padding-left: 15px;
+  width: 450px;
+  height: 250px;
+  background-color: grey;
+  border-bottom: 10px solid red;
+  display: inline-block;
+  transition: all 2s ease-in;
+}
+
+h4 {
+  text-align: center;
+  background-color: white;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.mohit {
+  background-color: grey;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.mohitm {
+  background-color: white;
+  padding-left: 40px;
+  margin-left: 450px;
+  margin-right: 20px;
+  margin-top: 30px;
+  width: 400px;
+  display: inline-block;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+
+.payment {
+  background-color: white;
+  padding: 10px;
+  font-size: 20px;
+  padding-left: 200px;
+}
+
+p1 {
+  padding-left: 200px;
+}
+
+#phon {
+  block-size: 20px;
+}
+
+h {
+  font-size: 20px;
+  color: black;
+}
+
+p5:active, p4:active, p3:active, p2:active, p6:active, p7:active, p8:active {
+  background-color: blue;
+  color: greenyellow;
+}
+
+button:active {
+  background-color: white;
+  color: blue;
+}
