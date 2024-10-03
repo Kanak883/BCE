@@ -155,12 +155,35 @@ h {
   color: black;
 }
 
-p5:active, p4:active, p3:active, p2:active, p6:active, p7:active, p8:active {
-  background-color: blue;
-  color: greenyellow;
-}
+
+
 
 button:active {
   background-color: white;
   color: blue;
+}
+
+p1:active{
+  color: #322fff;
+}
+p5:active{
+  color: #322fff;
+}
+p4:active{
+  color: #322fff;
+}
+p3:active{
+  color: #322fff;
+}
+p2:active{
+  color: #322fff;
+}
+p6:active{
+  color: #322fff;
+}
+p7:active{
+  color: #322fff;
+}
+p8:active{
+  color: #322fff;
 }
