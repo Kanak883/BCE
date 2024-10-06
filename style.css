@@ -3,8 +3,6 @@
 }
 
 
-
-
 a {
   font-size: 20px;
   border-radius: 10px;
@@ -15,8 +13,34 @@ a {
   font-family: Helvetica;
 }
 
-.logo {
+.navbar{
   display: inline-block;
+  margin-left: 400px;
+  padding-bottom: 30px;
+}
+.topline{
+  height: 60px;
+}
+#a1{
+  padding-top: 200px;
+}
+.nab{
+  padding-left: 200px;
+  background-color: rgb(39, 38, 38);
+  border-radius: 2;
+}
+#an{
+  background-color: rgb(39, 38, 38);
+}
+#ae{
+  background-color: rgb(39, 38, 38);
+}
+#ac{
+  background-color: rgb(39, 38, 38);
+}
+
+.logo {
+  display: inline;
   height: 60px;
   width: 150px;
   background-color: #F8F8FF;
@@ -70,7 +94,7 @@ hr {
 }
 
 .hero {
-  display: flex; /
+  display: flex; 
   justify-content: space-between; 
   align-items: center;
   padding: 20px; 
@@ -84,6 +108,7 @@ hr {
 .text {
   margin-left: 20px;  
   font-size: 24px; 
+  font-family: Helvetica;
   font-weight: bold; 
   line-height: 1.5; 
   text-align: right; 
@@ -137,6 +162,7 @@ p {
   padding: 10px;
   font-size: 20px;
   padding-left: 200px;
+  font-family: Helvetica;
 }
 
 .fee {
@@ -153,6 +179,9 @@ p1 {
 h {
   font-size: 20px;
   color: black;
+}
+#dow{
+  padding-bottom: 10px;
 }
 
 
