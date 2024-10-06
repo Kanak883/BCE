@@ -2,41 +2,102 @@
   background-color: #FEF9EF;
 }
 
-
 a {
   font-size: 20px;
   border-radius: 10px;
   border-width: 2px;
-  margin-left: 150px;
+  gap: 50px;
   text-decoration: none;
   color: rgb(225, 54, 54);
   font-family: Helvetica;
 }
-
-.navbar{
+#apply1{
+  background-color: black;
   display: inline-block;
-  margin-left: 400px;
-  padding-bottom: 30px;
+  
 }
-.topline{
-  height: 60px;
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
 }
-#a1{
-  padding-top: 200px;
+.nav1{
+  width: max-content;
+  background-size: cover;
+  
 }
-.nab{
+
+#payment-button{
+  background-color: black;
+}
+#Apply{
+  float: left;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-block: 20px;
+  background-color: black;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+#Enquiry{
+  float: left;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-block: 20px;
+  background-color: black;
+}
+#visit{
+  float: right;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-block: 20px;
+  background-color: black;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.upperhead {
+  display: flex;
+  margin-left: 800px;
+}
+
+#orgSite {
+  flex: content;
+  width: 20px;
+  margin-bottom: 20px;
+}
+
+#signin{
+  float: right;
+  padding-right: 50px;
+
+}
+
+.paymentOP{
+  display:flex;
+  width: max-content;
+}
+
+#p1{
   padding-left: 200px;
-  background-color: rgb(39, 38, 38);
-  border-radius: 2;
 }
-#an{
-  background-color: rgb(39, 38, 38);
+
+#p2{
+  flex: right;
+  padding-left: 180px;
 }
-#ae{
-  background-color: rgb(39, 38, 38);
+
+#p3{
+  flex: right;
+  padding-left: 180px;
 }
-#ac{
-  background-color: rgb(39, 38, 38);
+
+#p4{
+  flex: left;
+  padding-left: 180px;
 }
 
 .logo {
@@ -54,26 +115,34 @@ a {
   border-width: 1px;
   font-size: 18px;
   border-color: black;
-  background-color: lightsteelblue;
+  background-color: rgb(0, 0, 0);
 }
 
-hr {
-  text-align: center;
-  font-family: Helvetica;
-}
-.scholheading{
+
+.scholheading {
   font-family: Helvetica;
   font-weight: bold;
 }
-.scholcol{
+
+.scholcol {
   font-family: Helvetica;
-  text-align: auto;
+  font-weight: bold;
+  font-size: larger;
 }
 
-.noticeN{
+.scholarships{
+  padding-left: 200px;
+}
+
+#noticeP{
+  padding-left: 200px;
+
+}
+.noticeN {
   font-family: Helvetica;
   font-weight: bold;
   text-align: center;
+  font-family: Helvetica;
 }
 
 .allbox {
@@ -83,7 +152,6 @@ hr {
   font-size: 40px;
   display: inline-block;
   font-family: Helvetica;
-  ;
 }
 
 .study {
@@ -94,30 +162,29 @@ hr {
 }
 
 .hero {
-  display: flex; 
-  justify-content: space-between; 
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  padding: 20px; 
+  padding: 20px;
 }
 
 .study img {
   max-width: 100%;
-  height: auto; 
+  height: auto;
 }
 
 .text {
-  margin-left: 20px;  
-  font-size: 24px; 
+  margin-left: 20px;
+  font-size: 24px;
   font-family: Helvetica;
-  font-weight: bold; 
-  line-height: 1.5; 
-  text-align: right; 
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: right;
 }
 
 .text p {
-  font-family:Helvetica; 
+  font-family: Helvetica;
 }
-
 
 h4 {
   text-align: center;
@@ -127,7 +194,6 @@ h4 {
   font-weight: bolder;
   border-radius: 10px;
   font-family: Helvetica;
-  font-weight: bold;
 }
 
 p {
@@ -135,35 +201,84 @@ p {
   font-family: Helvetica;
 }
 
-.mohit {
-  background-color: grey;
-  padding-left: 20px;
-  padding-top: 10px;
-  font-family: Helvetica;
+.FeesDet {
+  background-color: #FEF9EF;
+  padding: 20px;
   font-weight: bold;
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start; 
+  border-radius: 10px;
 }
 
+#det1{
+  padding-left: 100px;
+}
 .mohitm {
-  background-color: white;
-  padding-left: 40px;
-  margin-left: 450px;
-  margin-right: 20px;
-  margin-top: 30px;
+  background-color: black;
+  padding: 20px;
   width: 400px;
-  display: inline-block;
   border-radius: 20px;
-  margin-bottom: 100px;
-  font-family: Helvetica;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   font-weight: bold;
+  color: white; 
 }
 
-.payment {
-  background-color: white;
-  padding: 10px;
-  font-size: 20px;
-  padding-left: 200px;
-  font-family: Helvetica;
+.mohitm input {
+  background-color: #333; 
+  color: white; 
+  border: 1px solid #ccc; 
 }
+
+.mohitm input::placeholder {
+  color: #bbb; 
+}
+
+#Paym{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  padding-left: 5%;
+}
+.center1 {
+  text-align: center; 
+  background-color: black;
+  font-size: larger;
+}
+
+.mohit p {
+  margin: 0;
+  padding-right: 20px;
+}
+
+input {
+  width: 90%;
+  padding: 5px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+button {
+  color: #F8F8FF;  
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  text-shadow: 0 0 8px white;
+  background-color: hsl(143, 93%, 37%);
+}
+
+
 
 .fee {
   font-family: Helvetica;
@@ -180,11 +295,11 @@ h {
   font-size: 20px;
   color: black;
 }
-#dow{
-  padding-bottom: 10px;
+
+#dow {
+  display: flex;
+  align-items: baseline;
 }
-
-
 
 
 button:active {
@@ -192,27 +307,13 @@ button:active {
   color: blue;
 }
 
-p1:active{
-  color: #322fff;
-}
-p5:active{
-  color: #322fff;
-}
-p4:active{
-  color: #322fff;
-}
-p3:active{
-  color: #322fff;
-}
-p2:active{
-  color: #322fff;
-}
-p6:active{
-  color: #322fff;
-}
-p7:active{
-  color: #322fff;
-}
-p8:active{
+p1:active,
+p2:active,
+p3:active,
+p4:active,
+p5:active,
+p6:active,
+p7:active,
+p8:active {
   color: #322fff;
 }
