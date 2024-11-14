@@ -1,319 +1,319 @@
 * {
-  background-color: #FEF9EF;
-}
-
-a {
-  font-size: 20px;
-  border-radius: 10px;
-  border-width: 2px;
-  gap: 50px;
-  text-decoration: none;
-  color: rgb(225, 54, 54);
-  font-family: Helvetica;
-}
-#apply1{
-  background-color: black;
-  display: inline-block;
+    background-color: #FEF9EF;
+  }
   
-}
-.navbar{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 4px;
-}
-.nav1{
-  width: max-content;
-  background-size: cover;
+  a {
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: 2px;
+    gap: 50px;
+    text-decoration: none;
+    color: rgb(225, 54, 54);
+    font-family: Helvetica;
+  }
+  #apply1{
+    background-color: black;
+    display: inline-block;
+    
+  }
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+  }
+  .nav1{
+    width: max-content;
+    background-size: cover;
+    
+  }
   
-}
-
-#payment-button{
-  background-color: black;
-}
-#Apply{
-  float: left;
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-block: 20px;
-  background-color: black;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-}
-
-#Enquiry{
-  float: left;
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-block: 20px;
-  background-color: black;
-}
-#visit{
-  float: right;
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-block: 20px;
-  background-color: black;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
-
-.upperhead {
-  display: flex;
-  margin-left: 800px;
-}
-
-#orgSite {
-  flex: content;
-  width: 20px;
-  margin-bottom: 20px;
-}
-
-#signin{
-  float: right;
-  padding-right: 50px;
-
-}
-
-.paymentOP{
-  display:flex;
-  width: max-content;
-}
-
-#p1{
-  padding-left: 200px;
-}
-
-#p2{
-  flex: right;
-  padding-left: 180px;
-}
-
-#p3{
-  flex: right;
-  padding-left: 180px;
-}
-
-#p4{
-  flex: left;
-  padding-left: 180px;
-}
-
-.logo {
-  display: inline;
-  height: 60px;
-  width: 150px;
-  background-color: #F8F8FF;
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding-top: 30px;
-  padding-left: 20px;
-}
-
-.button {
-  border-width: 1px;
-  font-size: 18px;
-  border-color: black;
-  background-color: rgb(0, 0, 0);
-}
-
-
-.scholheading {
-  font-family: Helvetica;
-  font-weight: bold;
-}
-
-.scholcol {
-  font-family: Helvetica;
-  font-weight: bold;
-  font-size: larger;
-}
-
-.scholarships{
-  padding-left: 200px;
-}
-
-#noticeP{
-  padding-left: 200px;
-
-}
-.noticeN {
-  font-family: Helvetica;
-  font-weight: bold;
-  text-align: center;
-  font-family: Helvetica;
-}
-
-.allbox {
-  width: 400px;
-  padding-left: 20px;
-  padding-top: 10px;
-  font-size: 40px;
-  display: inline-block;
-  font-family: Helvetica;
-}
-
-.study {
-  padding-top: 25px;
-  padding-left: 105px;
-  display: inline-block;
-  transition: all 2s ease-in;
-}
-
-.hero {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-}
-
-.study img {
-  max-width: 100%;
-  height: auto;
-}
-
-.text {
-  margin-left: 20px;
-  font-size: 24px;
-  font-family: Helvetica;
-  font-weight: bold;
-  line-height: 1.5;
-  text-align: right;
-}
-
-.text p {
-  font-family: Helvetica;
-}
-
-h4 {
-  text-align: center;
-  background-color: white;
-  font-size: 30px;
-  font-style: italic;
-  font-weight: bolder;
-  border-radius: 10px;
-  font-family: Helvetica;
-}
-
-p {
-  font-size: 20px;
-  font-family: Helvetica;
-}
-
-.FeesDet {
-  background-color: #FEF9EF;
-  padding: 20px;
-  font-weight: bold;
-  display: flex;
-  justify-content: space-between; 
-  align-items: flex-start; 
-  border-radius: 10px;
-}
-
-#det1{
-  padding-left: 100px;
-}
-.mohitm {
-  background-color: black;
-  padding: 20px;
-  width: 400px;
-  border-radius: 20px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  font-weight: bold;
-  color: white; 
-}
-
-.mohitm input {
-  background-color: #333; 
-  color: white; 
-  border: 1px solid #ccc; 
-}
-
-.mohitm input::placeholder {
-  color: #bbb; 
-}
-
-#Paym{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: larger;
-  font-weight: bold;
-  padding-left: 5%;
-}
-.center1 {
-  text-align: center; 
-  background-color: black;
-  font-size: larger;
-}
-
-.mohit p {
-  margin: 0;
-  padding-right: 20px;
-}
-
-input {
-  width: 90%;
-  padding: 5px;
-  margin: 5px 0;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}
-
-body {
-  font-family: Helvetica, sans-serif;
-}
-
-button {
-  color: #F8F8FF;  
-  padding: 10px 20px;
-  border: none;
-  background-color: rgb(0, 0, 0);
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-button:hover {
-  text-shadow: 0 0 8px white;
-  background-color: hsl(143, 93%, 37%);
-}
-
-
-
-.fee {
-  font-family: Helvetica;
-  font-weight: bold;
-  text-align: center;
-  color: black;
-}
-
-p1 {
-  padding-left: 200px;
-}
-
-h {
-  font-size: 20px;
-  color: black;
-}
-
-#dow {
-  display: flex;
-  align-items: baseline;
-}
-
-
-button:active {
-  background-color: white;
-  color: blue;
-}
-
-p1:active,
-p2:active,
-p3:active,
-p4:active,
-p5:active,
-p6:active,
-p7:active,
-p8:active {
-  color: #322fff;
-}
+  #payment-button{
+    background-color: black;
+  }
+  #Apply{
+    float: left;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-block: 20px;
+    background-color: black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  #Enquiry{
+    float: left;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-block: 20px;
+    background-color: black;
+  }
+  #visit{
+    float: right;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-block: 20px;
+    background-color: black;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .upperhead {
+    display: flex;
+    margin-left: 800px;
+  }
+  
+  #orgSite {
+    flex: content;
+    width: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #signin{
+    float: right;
+    padding-right: 50px;
+  
+  }
+  
+  .paymentOP{
+    display:flex;
+    width: max-content;
+  }
+  
+  #p1{
+    padding-left: 200px;
+  }
+  
+  #p2{
+    flex: right;
+    padding-left: 180px;
+  }
+  
+  #p3{
+    flex: right;
+    padding-left: 180px;
+  }
+  
+  #p4{
+    flex: left;
+    padding-left: 180px;
+  }
+  
+  .logo {
+    display: inline;
+    height: 60px;
+    width: 150px;
+    background-color: #fef8ee;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+  
+  .button {
+    border-width: 1px;
+    font-size: 18px;
+    border-color: black;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  
+  .scholheading {
+    font-family: Helvetica;
+    font-weight: bold;
+  }
+  
+  .scholcol {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: larger;
+  }
+  
+  .scholarships{
+    padding-left: 200px;
+  }
+  
+  #noticeP{
+    padding-left: 200px;
+  
+  }
+  .noticeN {
+    font-family: Helvetica;
+    font-weight: bold;
+    text-align: center;
+    font-family: Helvetica;
+  }
+  
+  .allbox {
+    width: 400px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 40px;
+    display: inline-block;
+    font-family: Helvetica;
+  }
+  
+  .study {
+    padding-top: 25px;
+    padding-left: 105px;
+    display: inline-block;
+    transition: all 2s ease-in;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .study img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .text {
+    margin-left: 20px;
+    font-size: 24px;
+    font-family: Helvetica;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: right;
+  }
+  
+  .text p {
+    font-family: Helvetica;
+  }
+  
+  h4 {
+    text-align: center;
+    background-color: white;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bolder;
+    border-radius: 10px;
+    font-family: Helvetica;
+  }
+  
+  p {
+    font-size: 20px;
+    font-family: Helvetica;
+  }
+  
+  .FeesDet {
+    background-color: #FEF9EF;
+    padding: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    border-radius: 10px;
+  }
+  
+  #det1{
+    padding-left: 100px;
+  }
+  .mohitm {
+    background-color: black;
+    padding: 20px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    color: white; 
+  }
+  
+  .mohitm input {
+    background-color: #333; 
+    color: white; 
+    border: 1px solid #ccc; 
+  }
+  
+  .mohitm input::placeholder {
+    color: #bbb; 
+  }
+  
+  #Paym{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    padding-left: 5%;
+  }
+  .center1 {
+    text-align: center; 
+    background-color: black;
+    font-size: larger;
+  }
+  
+  .mohit p {
+    margin: 0;
+    padding-right: 20px;
+  }
+  
+  input {
+    width: 90%;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  body {
+    font-family: Helvetica, sans-serif;
+  }
+  
+  button {
+    color: #F8F8FF;  
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    text-shadow: 0 0 8px white;
+    background-color: hsl(143, 93%, 37%);
+  }
+  
+  
+  
+  .fee {
+    font-family: Helvetica;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+  }
+  
+  p1 {
+    padding-left: 200px;
+  }
+  
+  h {
+    font-size: 20px;
+    color: black;
+  }
+  
+  #dow {
+    display: flex;
+    align-items: baseline;
+  }
+  
+  
+  button:active {
+    background-color: white;
+    color: blue;
+  }
+  
+  p1:active,
+  p2:active,
+  p3:active,
+  p4:active,
+  p5:active,
+  p6:active,
+  p7:active,
+  p8:active {
+    color: #322fff;
+  }
