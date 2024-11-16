@@ -8,7 +8,6 @@
     <link rel="shortcut icon" href="https://raw.githubusercontent.com/Kanak883/BCE/refs/heads/main/favicon%20bgi.png" type="image/x-icon">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
         <script>
-        // Redirect mobile users to a desktop-specific URL
         if (/Mobi|Android/i.test(navigator.userAgent)) {
             window.location.href = "https://desktop.kanak883.github.io/BCE/";
         }
@@ -134,7 +133,6 @@
           const { jsPDF } = window.jspdf;
           const doc = new jsPDF();
   
-          // Fetch user inputs
           const year = document.querySelector("input[placeholder='Year']").value;
           const enrollmentNumber = document.querySelector("input[placeholder='Enrollment number']").value;
           const semester = document.querySelector("input[placeholder='Current sem']").value;
@@ -142,19 +140,16 @@
           const amountPaid = document.querySelector("#amountPaid").value;
           const remainingAmount = document.querySelector("#remainingAmount").value;
   
-          // Validate that user has filled required fields
           if (!year || !enrollmentNumber || !semester || !fees || !amountPaid || !remainingAmount) {
               alert("Please fill all required fields!");
-              return;  // Stops execution if required fields are missing
+              return;  
           }
   
-          // Check if fees, amountPaid, and remainingAmount are valid numbers
           if (isNaN(fees) || isNaN(amountPaid) || isNaN(remainingAmount)) {
               alert("Please enter valid numbers for fees and amounts.");
-              return;  // Stops execution if any amount is not a number
+              return;  
           }
   
-          // Proceed with PDF generation if validation passes
           doc.text("Fee Payment Receipt", 105, 10,  { align: 'center' });
           doc.text(`Year: ${year}`, 10, 20);
           doc.text(`Enrollment Number: ${enrollmentNumber}`, 10, 30);
@@ -163,7 +158,6 @@
           doc.text(`Amount Paid: ${amountPaid}`, 10, 60);
           doc.text(`Total Remaining Amount: ${remainingAmount}`, 10, 70);
   
-          // Save the generated PDF
           doc.save("Fee_Payment_Receipt.pdf");
       }
     </script>
